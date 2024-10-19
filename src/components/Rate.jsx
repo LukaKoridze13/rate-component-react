@@ -1,7 +1,11 @@
 import "./Rate.css";
 
-const Rate = () => {
-  return <div className="rate">1</div>;
+const Rate = (props) => {
+  return (
+    <div style={{ width: props.width }} className="rate">
+      {props.number}
+    </div>
+  );
 };
 
 export default Rate;
