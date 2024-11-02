@@ -6,6 +6,7 @@ import Submit from "./Submit";
 import Text from "./Text";
 
 const Container = () => {
+  
   return (
     <div className="container">
       <Star />
